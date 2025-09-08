@@ -1,0 +1,42 @@
+{
+  "timestamp": "20250908_111328",
+  "dataset_shape": [
+    1025,
+    14
+  ],
+  "target": "target",
+  "class_balance": {
+    "1": 526,
+    "0": 499
+  },
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "results": {
+    "logreg": {
+      "accuracy": 0.8249027237354085,
+      "roc_auc": 0.9298181818181818,
+      "chosen_score": 0.9298181818181818
+    },
+    "rf": {
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "chosen_score": 1.0
+    }
+  },
+  "chosen_model": "rf",
+  "sklearn_version": "1.7.1",
+  "notes": "CardioTrack quick baseline training"
+}
