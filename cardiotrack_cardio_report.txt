@@ -1,0 +1,20 @@
+=== CardioTrack Cardio Report (non-diagnostic) ===
+Time: 2025-09-08 11:50:50
+Rows analyzed: 1025
+Risk distribution -> High: 511, Moderate: 15, Low: 499
+Accuracy: 1.0
+ROC AUC: 1.0
+
+Top High-Risk (up to 10):
+  id=5 | p=0.9725 | flags=High Cholesterol (chol≥240)
+  id=10 | p=0.9775 | flags=Abnormal resting ECG (restecg)
+  id=12 | p=1.0 | flags=Abnormal resting ECG (restecg)
+  id=15 | p=1.0 | flags=Abnormal resting ECG (restecg)
+  id=16 | p=0.98 | flags=High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0)
+  id=18 | p=0.995 | flags=High Cholesterol (chol≥240); Abnormal resting ECG (restecg)
+  id=19 | p=0.9925 | flags=High BP (trestbps≥140); High fasting blood sugar (fbs=1)
+  id=21 | p=0.955 | flags=Abnormal resting ECG (restecg); Major vessels observed (ca>0)
+  id=23 | p=0.985 | flags=High Cholesterol (chol≥240)
+  id=24 | p=1.0 | flags=Abnormal resting ECG (restecg)
+
+Notes: This report provides risk indicators and wellness guidance only. For symptoms or concerns, consult a qualified clinician.

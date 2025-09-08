@@ -1,0 +1,1026 @@
+id,predicted,risk_probability,risk_level,flags_count,flags,recommendations,proba_0
+0,0,0.025,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.975
+1,0,0.015,Low,3,High BP (trestbps≥140); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.985
+2,0,0.005,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.995
+3,0,0.005,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+4,0,0.0325,Low,4,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9675
+5,1,0.9725,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0275
+6,0,0.03,Low,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.97
+7,0,0.0,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+8,0,0.025,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.975
+9,0,0.0025,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+10,1,0.9775,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0225
+11,0,0.0,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+12,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+13,0,0.0,Low,5,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+14,0,0.08,Low,3,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Anomalous thal (|z|≥3),"Maintain regular activity, balanced diet, adequate sleep.",0.92
+15,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+16,1,0.98,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.02
+17,0,0.005,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.995
+18,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+19,1,0.9925,High,2,High BP (trestbps≥140); High fasting blood sugar (fbs=1),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0075
+20,0,0.2325,Low,2,High BP (trestbps≥140); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.7675
+21,1,0.955,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.045
+22,1,0.775,Moderate,1,ST depression elevated (oldpeak≥2),Consult a clinician for a formal evaluation.; Abnormal exercise/ECG indicators—seek medical advice.,0.225
+23,1,0.985,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.015
+24,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+25,0,0.0175,Low,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9825
+26,1,0.975,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.025
+27,0,0.0375,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9625
+28,0,0.18,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.82
+29,0,0.01,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.99
+30,0,0.01,Low,2,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),Abnormal exercise/ECG indicators—seek medical advice.,0.99
+31,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+32,0,0.005,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.995
+33,0,0.0275,Low,5,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9725
+34,1,0.9975,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0025
+35,0,0.0875,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9125
+36,1,0.98,High,2,"Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.02
+37,1,0.88,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.12
+38,1,0.9675,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0325
+39,0,0.0175,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.9825
+40,1,0.9725,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0275
+41,1,0.9575,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0425
+42,0,0.02,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+43,0,0.025,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.975
+44,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+45,1,0.9925,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0075
+46,1,0.995,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.005
+47,0,0.02,Low,4,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.98
+48,1,0.9975,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+49,0,0.0,Low,3,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",1.0
+50,1,0.9875,High,4,"High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0125
+51,0,0.025,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.975
+52,1,1.0,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.0
+53,0,0.1875,Low,3,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.8125
+54,0,0.0025,Low,4,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Anomalous oldpeak (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+55,0,0.0025,Low,4,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Anomalous oldpeak (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+56,1,0.9475,High,1,"Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.0525
+57,1,0.9925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+58,0,0.005,Low,1,High BP (trestbps≥140),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+59,0,0.005,Low,2,High BP (trestbps≥140); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+60,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+61,1,0.9975,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+62,0,0.0425,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9575
+63,1,0.975,High,3,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.025
+64,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+65,0,0.03,Low,3,"High BP (trestbps≥140); High Cholesterol (chol≥240); Angina-type chest pain (cp∈{3,4})","Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.97
+66,1,0.9875,High,1,High fasting blood sugar (fbs=1),Consult a clinician for a formal evaluation.,0.0125
+67,0,0.0025,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+68,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+69,0,0.005,Low,4,High BP (trestbps≥140); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Anomalous oldpeak (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.995
+70,0,0.0075,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9925
+71,0,0.0025,Low,2,High BP (trestbps≥140); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.9975
+72,0,0.0,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+73,0,0.0,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",1.0
+74,0,0.0075,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9925
+75,1,0.9925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+76,1,0.955,High,4,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.045
+77,0,0.0025,Low,3,High BP (trestbps≥140); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+78,1,0.8575,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.1425
+79,1,0.8575,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.1425
+80,0,0.2275,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.7725
+81,0,0.025,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.975
+82,0,0.0875,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9125
+83,1,1.0,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.0
+84,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+85,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+86,1,0.9925,High,2,High BP (trestbps≥140); High fasting blood sugar (fbs=1),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0075
+87,0,0.02,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+88,0,0.0025,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+89,0,0.0125,Low,5,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9875
+90,1,0.945,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.055
+91,1,0.915,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.085
+92,0,0.0025,Low,3,High BP (trestbps≥140); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+93,0,0.01,Low,2,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),Abnormal exercise/ECG indicators—seek medical advice.,0.99
+94,1,0.975,High,1,High fasting blood sugar (fbs=1),Consult a clinician for a formal evaluation.,0.025
+95,1,0.99,High,0,,Consult a clinician for a formal evaluation.,0.01
+96,1,0.92,High,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.08
+97,0,0.0,Low,5,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+98,0,0.1025,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.8975
+99,1,0.9875,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0125
+100,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+101,1,0.9275,High,4,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0725
+102,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+103,1,0.9925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+104,1,0.99,High,1,"Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.01
+105,0,0.015,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+106,0,0.0525,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9475
+107,0,0.0125,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9875
+108,0,0.07,Low,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.",0.93
+109,0,0.005,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.995
+110,0,0.15,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.85
+111,1,0.8925,High,1,High BP (trestbps≥140),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.1075
+112,0,0.0075,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9925
+113,0,0.0,Low,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+114,0,0.005,Low,4,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.995
+115,0,0.0175,Low,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9825
+116,0,0.0,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+117,0,0.0,Low,1,ST depression elevated (oldpeak≥2),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+118,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+119,1,1.0,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+120,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+121,0,0.01,Low,2,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),Abnormal exercise/ECG indicators—seek medical advice.,0.99
+122,0,0.0,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+123,1,0.955,High,5,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0); Anomalous chol (|z|≥3),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.045
+124,0,0.0,Low,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+125,1,0.9975,High,4,"High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+126,1,0.925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.075
+127,1,0.9875,High,1,High fasting blood sugar (fbs=1),Consult a clinician for a formal evaluation.,0.0125
+128,1,0.9775,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.0225
+129,1,0.9275,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0725
+130,1,0.9975,High,4,"High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+131,1,0.9975,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+132,1,0.995,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.005
+133,1,0.9975,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0025
+134,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+135,0,0.0025,Low,4,High BP (trestbps≥140); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+136,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+137,1,0.905,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.095
+138,1,0.9925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+139,1,0.9775,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0225
+140,0,0.0,Low,5,High BP (trestbps≥140); High Cholesterol (chol≥240); Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).",1.0
+141,0,0.085,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.915
+142,0,0.0125,Low,4,"Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})",Abnormal exercise/ECG indicators—seek medical advice.,0.9875
+143,1,0.995,High,1,"Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.005
+144,1,0.9525,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0475
+145,0,0.01,Low,1,ST depression elevated (oldpeak≥2),Abnormal exercise/ECG indicators—seek medical advice.,0.99
+146,1,0.995,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+147,0,0.1125,Low,0,,"Maintain regular activity, balanced diet, adequate sleep.",0.8875
+148,1,0.935,High,5,"High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.065
+149,1,0.985,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.015
+150,0,0.03,Low,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.97
+151,0,0.025,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0); Anomalous trestbps (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.975
+152,0,0.0,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+153,1,0.9575,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0425
+154,0,0.0,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+155,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+156,1,0.84,High,3,"High BP (trestbps≥140); Abnormal resting ECG (restecg); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.16
+157,1,0.9575,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0425
+158,1,0.945,High,2,High Cholesterol (chol≥240); Anomalous chol (|z|≥3),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.055
+159,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+160,0,0.02,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+161,1,0.97,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.03
+162,0,0.02,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+163,0,0.19,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.81
+164,0,0.0,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+165,0,0.0075,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9925
+166,0,0.005,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.995
+167,1,0.9575,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0425
+168,1,0.9575,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0425
+169,1,0.9925,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0075
+170,1,0.9875,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0125
+171,0,0.0025,Low,2,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+172,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+173,1,0.9925,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0075
+174,0,0.0,Low,3,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+175,0,0.0025,Low,6,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Anomalous trestbps (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+176,0,0.0025,Low,2,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+177,0,0.0125,Low,4,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).; Abnormal exercise/ECG indicators—seek medical advice.",0.9875
+178,0,0.15,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.85
+179,0,0.015,Low,3,High Cholesterol (chol≥240); Major vessels observed (ca>0); Anomalous chol (|z|≥3),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+180,0,0.0025,Low,3,High BP (trestbps≥140); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+181,1,0.95,High,1,"Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.05
+182,0,0.0,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+183,1,0.9925,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0075
+184,1,1.0,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+185,0,0.0,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+186,0,0.01,Low,1,ST depression elevated (oldpeak≥2),Abnormal exercise/ECG indicators—seek medical advice.,0.99
+187,0,0.0,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+188,0,0.0,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+189,0,0.0125,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9875
+190,1,0.985,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.015
+191,1,0.9575,High,0,,Consult a clinician for a formal evaluation.,0.0425
+192,1,0.945,High,2,High Cholesterol (chol≥240); Anomalous chol (|z|≥3),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.055
+193,1,0.93,High,4,"High BP (trestbps≥140); High fasting blood sugar (fbs=1); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.07
+194,0,0.005,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.995
+195,1,0.975,High,3,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.025
+196,0,0.185,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.815
+197,1,1.0,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+198,1,0.9675,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0325
+199,0,0.01,Low,1,High BP (trestbps≥140),"Monitor blood pressure; reduce sodium, manage stress.",0.99
+200,1,0.915,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.085
+201,1,0.995,High,1,"Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.005
+202,1,0.935,High,5,"High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.065
+203,1,0.975,High,2,"High BP (trestbps≥140); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.025
+204,1,0.9975,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+205,1,0.9,High,4,"High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.1
+206,0,0.005,Low,4,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.995
+207,1,0.985,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.015
+208,1,1.0,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.0
+209,0,0.0125,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9875
+210,1,0.9775,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0225
+211,0,0.0425,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9575
+212,0,0.02,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.98
+213,1,0.9575,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0425
+214,1,1.0,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+215,1,1.0,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+216,0,0.0025,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+217,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+218,0,0.0025,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+219,0,0.0025,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+220,0,0.04,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.96
+221,0,0.0,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+222,1,0.95,High,1,"Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.05
+223,1,0.9925,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0075
+224,1,0.9625,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0375
+225,1,0.99,High,1,High BP (trestbps≥140),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.01
+226,0,0.025,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.975
+227,1,0.96,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.04
+228,1,1.0,High,2,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+229,0,0.02,Low,4,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.98
+230,0,0.0,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+231,1,0.9975,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0025
+232,0,0.0,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+233,1,0.9975,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+234,1,0.9925,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+235,1,0.975,High,2,"High BP (trestbps≥140); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.025
+236,0,0.025,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.975
+237,0,0.0475,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9525
+238,0,0.0,Low,3,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",1.0
+239,0,0.1975,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.8025
+240,1,0.95,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.05
+241,0,0.005,Low,1,High BP (trestbps≥140),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+242,1,1.0,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.0
+243,0,0.2325,Low,2,High BP (trestbps≥140); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.7675
+244,1,0.9925,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.0075
+245,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+246,0,0.025,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0); Anomalous trestbps (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.975
+247,0,0.0025,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+248,1,0.995,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.005
+249,1,0.9925,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0075
+250,0,0.015,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+251,1,0.9925,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0075
+252,0,0.0,Low,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+253,0,0.0,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+254,0,0.0075,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.9925
+255,1,0.9825,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0175
+256,1,0.97,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.03
+257,1,0.905,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.095
+258,0,0.0825,Low,3,"Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Angina-type chest pain (cp∈{3,4})",Abnormal exercise/ECG indicators—seek medical advice.,0.9175
+259,1,0.925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.075
+260,1,0.9975,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0025
+261,1,0.99,High,1,High BP (trestbps≥140),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.01
+262,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+263,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+264,0,0.0025,Low,4,High BP (trestbps≥140); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+265,1,0.775,Moderate,1,ST depression elevated (oldpeak≥2),Consult a clinician for a formal evaluation.; Abnormal exercise/ECG indicators—seek medical advice.,0.225
+266,0,0.0,Low,5,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+267,0,0.0425,Low,3,Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); Anomalous thalach (|z|≥3),Build gradual cardio routine (as advised by a professional).,0.9575
+268,0,0.0575,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.9425
+269,1,0.9925,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+270,1,0.9775,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0225
+271,1,0.9525,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0475
+272,1,0.995,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.005
+273,0,0.005,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.995
+274,1,0.985,High,2,High BP (trestbps≥140); ST depression elevated (oldpeak≥2),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.015
+275,0,0.0025,Low,2,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+276,1,0.7925,Moderate,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.2075
+277,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+278,0,0.0,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+279,1,0.98,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.02
+280,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+281,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+282,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+283,1,0.95,High,1,"Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.05
+284,0,0.0575,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.9425
+285,1,0.9925,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+286,1,0.8475,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.1525
+287,1,0.985,High,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.015
+288,1,0.9775,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0225
+289,0,0.07,Low,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.",0.93
+290,1,0.9775,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.0225
+291,0,0.0,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+292,1,0.975,High,4,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.025
+293,1,0.975,High,3,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.025
+294,0,0.0025,Low,6,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Anomalous trestbps (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+295,0,0.0425,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9575
+296,0,0.0425,Low,3,Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); Anomalous thalach (|z|≥3),Build gradual cardio routine (as advised by a professional).,0.9575
+297,0,0.015,Low,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+298,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+299,1,1.0,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+300,1,0.9775,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0225
+301,1,0.99,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.01
+302,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+303,0,0.0,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+304,1,0.995,High,0,,Consult a clinician for a formal evaluation.,0.005
+305,0,0.0125,Low,4,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).",0.9875
+306,1,0.96,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.04
+307,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+308,0,0.005,Low,4,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.995
+309,1,0.9975,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+310,0,0.0,Low,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+311,0,0.0075,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9925
+312,0,0.0275,Low,5,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9725
+313,1,0.98,High,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.02
+314,1,0.84,High,3,"High BP (trestbps≥140); Abnormal resting ECG (restecg); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.16
+315,1,0.9,High,4,"High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.1
+316,1,0.8475,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.1525
+317,1,0.985,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.015
+318,0,0.0,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",1.0
+319,1,0.9575,High,1,Anomalous thal (|z|≥3),Consult a clinician for a formal evaluation.,0.0425
+320,1,0.995,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+321,1,0.9975,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+322,0,0.005,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.995
+323,0,0.0875,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9125
+324,1,0.9925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+325,1,0.9975,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+326,0,0.025,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0); Anomalous trestbps (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.975
+327,0,0.015,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+328,0,0.0,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+329,1,0.9575,High,1,Anomalous thal (|z|≥3),Consult a clinician for a formal evaluation.,0.0425
+330,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+331,0,0.015,Low,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+332,1,0.8475,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.1525
+333,1,0.995,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.005
+334,0,0.0,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+335,0,0.015,Low,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+336,1,0.9275,High,4,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0725
+337,1,0.97,High,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.03
+338,0,0.18,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.82
+339,0,0.0,Low,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+340,1,1.0,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.0
+341,1,0.9975,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0025
+342,1,0.9925,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+343,1,0.81,High,3,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.19
+344,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+345,0,0.0875,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9125
+346,0,0.02,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.98
+347,1,0.945,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.055
+348,0,0.095,Low,4,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0); Anomalous ca (|z|≥3),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.905
+349,0,0.055,Low,4,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).",0.945
+350,1,0.925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.075
+351,0,0.01,Low,1,High BP (trestbps≥140),"Monitor blood pressure; reduce sodium, manage stress.",0.99
+352,0,0.0,Low,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+353,1,0.715,Moderate,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.285
+354,0,0.0475,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9525
+355,1,0.97,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.03
+356,0,0.0475,Low,4,High BP (trestbps≥140); Low exercise capacity (thalach<100); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Build gradual cardio routine (as advised by a professional).",0.9525
+357,0,0.005,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.995
+358,0,0.015,Low,3,"Abnormal resting ECG (restecg); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Maintain regular activity, balanced diet, adequate sleep.",0.985
+359,1,0.9575,High,1,Anomalous thal (|z|≥3),Consult a clinician for a formal evaluation.,0.0425
+360,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+361,1,0.94,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.06
+362,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+363,1,0.96,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.04
+364,0,0.04,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.96
+365,1,0.96,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.04
+366,0,0.055,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.945
+367,0,0.0125,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.9875
+368,1,0.9675,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0325
+369,1,0.9675,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0325
+370,0,0.0,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+371,0,0.0,Low,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+372,1,0.995,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.005
+373,0,0.015,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+374,1,0.9875,High,1,High BP (trestbps≥140),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0125
+375,1,0.985,High,2,High BP (trestbps≥140); ST depression elevated (oldpeak≥2),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.015
+376,1,0.99,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.01
+377,1,0.885,High,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.115
+378,0,0.0425,Low,3,Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); Anomalous thalach (|z|≥3),Build gradual cardio routine (as advised by a professional).,0.9575
+379,1,0.99,High,1,"Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.01
+380,0,0.005,Low,4,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.995
+381,0,0.0575,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.9425
+382,0,0.0,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",1.0
+383,0,0.015,Low,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+384,0,0.0125,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9875
+385,1,0.9675,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0325
+386,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+387,0,0.02,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+388,0,0.0125,Low,4,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).; Abnormal exercise/ECG indicators—seek medical advice.",0.9875
+389,1,0.96,High,4,"High BP (trestbps≥140); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.04
+390,0,0.0375,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9625
+391,0,0.02,Low,3,"High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Angina-type chest pain (cp∈{3,4})","Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+392,1,0.9675,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0325
+393,0,0.005,Low,4,High BP (trestbps≥140); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Anomalous oldpeak (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.995
+394,0,0.0,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+395,1,0.9975,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+396,0,0.02,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+397,0,0.01,Low,1,ST depression elevated (oldpeak≥2),Abnormal exercise/ECG indicators—seek medical advice.,0.99
+398,1,0.985,High,2,High BP (trestbps≥140); ST depression elevated (oldpeak≥2),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.015
+399,1,0.96,High,4,"High BP (trestbps≥140); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.04
+400,0,0.1875,Low,3,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.8125
+401,1,0.9775,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0225
+402,1,0.97,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.03
+403,1,0.9775,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0225
+404,0,0.0025,Low,2,High BP (trestbps≥140); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.9975
+405,0,0.18,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.82
+406,1,0.9925,High,2,High BP (trestbps≥140); High fasting blood sugar (fbs=1),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0075
+407,0,0.185,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.815
+408,1,0.97,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.03
+409,0,0.0875,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9125
+410,1,0.98,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.02
+411,0,0.0,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+412,0,0.015,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+413,0,0.0,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+414,0,0.03,Low,3,"High BP (trestbps≥140); High Cholesterol (chol≥240); Angina-type chest pain (cp∈{3,4})","Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.97
+415,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+416,1,0.97,High,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.03
+417,1,0.9775,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.0225
+418,1,0.915,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.085
+419,1,0.9725,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0275
+420,1,0.92,High,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.08
+421,1,0.9925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+422,1,0.9575,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0425
+423,0,0.0375,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9625
+424,0,0.005,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.995
+425,0,0.0025,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+426,1,0.98,High,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.02
+427,1,0.9925,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0075
+428,0,0.095,Low,4,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0); Anomalous ca (|z|≥3),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.905
+429,0,0.125,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.875
+430,0,0.005,Low,1,High BP (trestbps≥140),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+431,0,0.005,Low,2,High BP (trestbps≥140); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+432,1,0.9675,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0325
+433,1,0.8475,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.1525
+434,1,0.98,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.02
+435,1,0.9575,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0425
+436,0,0.02,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+437,0,0.005,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.995
+438,1,0.99,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.01
+439,0,0.015,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+440,0,0.1975,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.8025
+441,0,0.0,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+442,0,0.0,Low,5,High BP (trestbps≥140); High Cholesterol (chol≥240); Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).",1.0
+443,1,0.9925,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0075
+444,1,0.99,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.01
+445,1,1.0,High,2,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+446,1,0.96,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.04
+447,0,0.0,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+448,1,0.995,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+449,0,0.01,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.99
+450,0,0.01,Low,5,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Anomalous chol (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.99
+451,1,0.9975,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+452,0,0.02,Low,4,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.98
+453,1,0.9975,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+454,0,0.005,Low,2,High BP (trestbps≥140); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+455,1,0.93,High,4,"High BP (trestbps≥140); High fasting blood sugar (fbs=1); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.07
+456,0,0.125,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.875
+457,1,0.995,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.005
+458,1,0.9875,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0125
+459,1,0.9625,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0375
+460,0,0.0925,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9075
+461,1,0.955,High,4,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.045
+462,1,0.99,High,1,"Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.01
+463,1,0.9775,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0225
+464,1,0.945,High,2,High Cholesterol (chol≥240); Anomalous chol (|z|≥3),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.055
+465,1,1.0,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.0
+466,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+467,0,0.015,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+468,1,0.975,High,4,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.025
+469,0,0.005,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.995
+470,1,0.9975,High,4,"High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+471,1,0.8475,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.1525
+472,1,0.99,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.01
+473,1,0.9975,High,1,ST depression elevated (oldpeak≥2),Consult a clinician for a formal evaluation.; Abnormal exercise/ECG indicators—seek medical advice.,0.0025
+474,0,0.0125,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.9875
+475,1,0.9275,High,4,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0725
+476,0,0.0,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+477,0,0.0175,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.9825
+478,1,0.985,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.015
+479,0,0.0,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+480,0,0.0025,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+481,0,0.01,Low,5,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Anomalous chol (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.99
+482,0,0.0,Low,5,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+483,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+484,0,0.1025,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.8975
+485,0,0.0125,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9875
+486,0,0.1125,Low,0,,"Maintain regular activity, balanced diet, adequate sleep.",0.8875
+487,0,0.0025,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+488,1,0.95,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.05
+489,1,0.975,High,4,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.025
+490,1,0.92,High,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.08
+491,1,0.9925,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0075
+492,0,0.0125,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9875
+493,0,0.0,Low,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+494,1,0.9925,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.0075
+495,1,0.7775,Moderate,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.2225
+496,0,0.02,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+497,0,0.005,Low,2,High BP (trestbps≥140); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+498,1,0.985,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.015
+499,1,0.9875,High,1,High BP (trestbps≥140),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0125
+500,1,0.9775,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0225
+501,1,0.97,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.03
+502,1,0.9875,High,1,High BP (trestbps≥140),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0125
+503,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+504,0,0.125,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.875
+505,1,0.96,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.04
+506,0,0.0,Low,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+507,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+508,0,0.0025,Low,6,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Anomalous trestbps (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+509,0,0.01,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.99
+510,1,0.95,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.05
+511,0,0.0,Low,1,ST depression elevated (oldpeak≥2),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+512,0,0.0425,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9575
+513,0,0.005,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.995
+514,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+515,0,0.1875,Low,3,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.8125
+516,0,0.0,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+517,1,0.98,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.02
+518,0,0.1875,Low,3,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.8125
+519,0,0.005,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+520,0,0.0,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",1.0
+521,1,0.97,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.03
+522,1,0.9675,High,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0325
+523,0,0.005,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+524,0,0.055,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.945
+525,1,0.9975,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+526,0,0.005,Low,4,High BP (trestbps≥140); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Anomalous oldpeak (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.995
+527,1,0.915,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.085
+528,1,0.9625,High,4,"High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.0375
+529,1,0.93,High,4,"High BP (trestbps≥140); High fasting blood sugar (fbs=1); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.07
+530,0,0.0075,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9925
+531,1,0.9925,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+532,0,0.085,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.915
+533,1,0.9975,High,0,,Consult a clinician for a formal evaluation.,0.0025
+534,1,0.945,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.055
+535,1,0.9875,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0125
+536,1,0.9925,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0075
+537,1,1.0,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+538,0,0.025,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.975
+539,1,0.975,High,2,"High BP (trestbps≥140); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.025
+540,0,0.0,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+541,1,0.9975,High,1,High BP (trestbps≥140),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0025
+542,1,0.9825,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0175
+543,0,0.015,Low,3,"Abnormal resting ECG (restecg); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Maintain regular activity, balanced diet, adequate sleep.",0.985
+544,1,0.97,High,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.03
+545,0,0.0125,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.9875
+546,0,0.0,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+547,1,0.955,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.045
+548,1,0.995,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+549,1,0.96,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.04
+550,0,0.0925,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9075
+551,0,0.0025,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+552,0,0.0,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+553,1,0.9875,High,1,High fasting blood sugar (fbs=1),Consult a clinician for a formal evaluation.,0.0125
+554,0,0.185,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.815
+555,0,0.0075,Low,4,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9925
+556,0,0.0,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",1.0
+557,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+558,1,0.9925,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0075
+559,0,0.0425,Low,3,Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); Anomalous thalach (|z|≥3),Build gradual cardio routine (as advised by a professional).,0.9575
+560,1,0.99,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.01
+561,1,0.9925,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+562,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+563,0,0.0425,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9575
+564,0,0.005,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.995
+565,1,0.9975,High,0,,Consult a clinician for a formal evaluation.,0.0025
+566,1,0.99,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.01
+567,1,0.9975,High,1,ST depression elevated (oldpeak≥2),Consult a clinician for a formal evaluation.; Abnormal exercise/ECG indicators—seek medical advice.,0.0025
+568,1,0.98,High,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.02
+569,1,0.9775,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0225
+570,1,0.995,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+571,0,0.0,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+572,1,0.995,High,1,"Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.005
+573,0,0.0425,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9575
+574,0,0.0,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+575,1,0.9875,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0125
+576,1,0.935,High,5,"High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.065
+577,0,0.0,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+578,1,0.9825,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0175
+579,0,0.005,Low,4,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.995
+580,1,0.9725,High,2,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0275
+581,1,0.9975,High,1,High BP (trestbps≥140),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0025
+582,1,0.99,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.01
+583,0,0.0,Low,1,ST depression elevated (oldpeak≥2),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+584,0,0.0,Low,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+585,1,0.84,High,3,"High BP (trestbps≥140); Abnormal resting ECG (restecg); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.16
+586,0,0.0125,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9875
+587,0,0.0475,Low,4,High BP (trestbps≥140); Low exercise capacity (thalach<100); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Build gradual cardio routine (as advised by a professional).",0.9525
+588,0,0.0175,Low,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9825
+589,0,0.0025,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+590,1,0.98,High,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.02
+591,0,0.015,Low,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+592,0,0.0275,Low,5,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9725
+593,0,0.015,Low,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+594,0,0.09,Low,3,High BP (trestbps≥140); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.91
+595,0,0.005,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+596,1,0.99,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.01
+597,1,1.0,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.0
+598,0,0.015,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+599,1,0.99,High,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.01
+600,0,0.055,Low,4,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).",0.945
+601,0,0.0025,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+602,1,0.9775,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0225
+603,1,0.99,High,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.01
+604,1,0.99,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.01
+605,1,0.9925,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+606,0,0.04,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.96
+607,0,0.0025,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+608,0,0.09,Low,3,High BP (trestbps≥140); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.91
+609,0,0.01,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.99
+610,0,0.0,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+611,0,0.0075,Low,3,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.9925
+612,0,0.0025,Low,4,High BP (trestbps≥140); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+613,0,0.0025,Low,4,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Anomalous oldpeak (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+614,0,0.0025,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+615,1,0.9925,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0075
+616,1,0.9925,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+617,1,0.9975,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+618,1,1.0,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+619,0,0.1025,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.8975
+620,0,0.0,Low,5,High BP (trestbps≥140); High Cholesterol (chol≥240); Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).",1.0
+621,0,0.0075,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9925
+622,0,0.0325,Low,4,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9675
+623,0,0.0125,Low,4,"Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})",Abnormal exercise/ECG indicators—seek medical advice.,0.9875
+624,1,0.9625,High,4,"High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.0375
+625,0,0.0925,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9075
+626,0,0.0575,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.9425
+627,0,0.0825,Low,3,"Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Angina-type chest pain (cp∈{3,4})",Abnormal exercise/ECG indicators—seek medical advice.,0.9175
+628,1,0.985,High,4,"High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.015
+629,0,0.04,Low,4,"High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.96
+630,0,0.02,Low,3,"High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Angina-type chest pain (cp∈{3,4})","Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+631,1,1.0,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+632,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+633,0,0.0,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+634,0,0.025,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.975
+635,1,0.995,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+636,0,0.02,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+637,1,0.9775,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0225
+638,0,0.04,Low,4,"High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.96
+639,1,0.99,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.01
+640,1,0.97,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.03
+641,0,0.015,Low,3,High Cholesterol (chol≥240); Major vessels observed (ca>0); Anomalous chol (|z|≥3),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+642,1,0.9675,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0325
+643,1,0.9175,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0825
+644,1,0.9975,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0025
+645,0,0.02,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.98
+646,0,0.125,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.875
+647,1,0.885,High,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.115
+648,1,0.9775,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0225
+649,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+650,0,0.0125,Low,4,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).",0.9875
+651,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+652,1,0.94,High,4,"High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.06
+653,0,0.0025,Low,2,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+654,1,0.9975,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+655,1,0.9775,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0225
+656,0,0.04,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.96
+657,1,0.995,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.005
+658,0,0.0125,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9875
+659,1,0.88,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.12
+660,0,0.0,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+661,0,0.03,Low,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.97
+662,1,0.9525,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0475
+663,1,0.9725,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0275
+664,1,0.94,High,4,"High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.06
+665,1,0.955,High,5,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0); Anomalous chol (|z|≥3),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.045
+666,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+667,0,0.0475,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9525
+668,1,1.0,High,0,,Consult a clinician for a formal evaluation.,0.0
+669,0,0.0875,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9125
+670,0,0.02,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+671,0,0.025,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.975
+672,1,0.96,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.04
+673,1,0.9575,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0425
+674,0,0.0,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+675,0,0.185,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.815
+676,0,0.0,Low,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+677,0,0.0,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+678,1,0.98,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.02
+679,0,0.02,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+680,1,1.0,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+681,0,0.0075,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9925
+682,0,0.0475,Low,4,High BP (trestbps≥140); Low exercise capacity (thalach<100); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Build gradual cardio routine (as advised by a professional).",0.9525
+683,0,0.0,Low,1,ST depression elevated (oldpeak≥2),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+684,0,0.2325,Low,2,High BP (trestbps≥140); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.7675
+685,0,0.01,Low,5,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Anomalous chol (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.99
+686,0,0.08,Low,3,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Anomalous thal (|z|≥3),"Maintain regular activity, balanced diet, adequate sleep.",0.92
+687,0,0.0,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+688,0,0.0025,Low,6,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Anomalous trestbps (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+689,1,0.995,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+690,1,0.9675,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0325
+691,1,0.9925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+692,0,0.015,Low,3,High BP (trestbps≥140); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.985
+693,1,0.99,High,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.01
+694,0,0.01,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.99
+695,0,0.0125,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9875
+696,1,0.9925,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0075
+697,0,0.005,Low,1,High BP (trestbps≥140),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+698,0,0.04,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.96
+699,0,0.0125,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9875
+700,1,0.9975,High,1,ST depression elevated (oldpeak≥2),Consult a clinician for a formal evaluation.; Abnormal exercise/ECG indicators—seek medical advice.,0.0025
+701,0,0.0075,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.9925
+702,1,0.985,High,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.015
+703,1,0.715,Moderate,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.285
+704,1,0.99,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.01
+705,0,0.0,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+706,0,0.0175,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.9825
+707,1,0.9975,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+708,1,0.79,Moderate,3,Low exercise capacity (thalach<100); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.; Build gradual cardio routine (as advised by a professional).,0.21
+709,0,0.02,Low,3,"High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Angina-type chest pain (cp∈{3,4})","Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+710,1,0.9575,High,0,,Consult a clinician for a formal evaluation.,0.0425
+711,0,0.0075,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.9925
+712,1,0.9925,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0075
+713,1,0.94,High,4,"High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.06
+714,1,0.98,High,2,"Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.02
+715,1,0.97,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.03
+716,0,0.0075,Low,3,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.9925
+717,0,0.18,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.82
+718,1,0.9925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+719,1,0.9675,High,3,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.0325
+720,0,0.0225,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9775
+721,1,1.0,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+722,1,0.9675,High,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0325
+723,1,0.9875,High,0,,Consult a clinician for a formal evaluation.,0.0125
+724,1,0.98,High,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.02
+725,0,0.0075,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9925
+726,0,0.19,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.81
+727,1,0.9575,High,0,,Consult a clinician for a formal evaluation.,0.0425
+728,0,0.0025,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+729,1,0.9925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+730,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+731,0,0.01,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.99
+732,1,0.99,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.01
+733,1,0.9825,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0175
+734,0,0.08,Low,3,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Anomalous thal (|z|≥3),"Maintain regular activity, balanced diet, adequate sleep.",0.92
+735,1,0.9975,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0025
+736,0,0.0,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",1.0
+737,0,0.005,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.995
+738,0,0.0,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+739,0,0.0125,Low,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9875
+740,1,0.9975,High,1,High BP (trestbps≥140),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0025
+741,1,0.98,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.02
+742,0,0.0,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+743,1,0.97,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.03
+744,1,0.9675,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0325
+745,1,0.97,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.03
+746,0,0.0225,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9775
+747,0,0.0,Low,3,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",1.0
+748,1,0.9975,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0025
+749,1,0.97,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.03
+750,1,0.99,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.01
+751,1,0.9725,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0275
+752,1,0.9925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+753,1,0.9175,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0825
+754,1,0.9975,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+755,1,0.955,High,4,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.045
+756,0,0.0125,Low,4,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).; Abnormal exercise/ECG indicators—seek medical advice.",0.9875
+757,1,0.985,High,2,High BP (trestbps≥140); ST depression elevated (oldpeak≥2),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.015
+758,1,0.9775,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0225
+759,0,0.02,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+760,0,0.015,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+761,1,0.9925,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+762,1,0.9575,High,0,,Consult a clinician for a formal evaluation.,0.0425
+763,1,0.9875,High,4,"High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0125
+764,0,0.0025,Low,3,High BP (trestbps≥140); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+765,0,0.0,Low,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+766,0,0.0,Low,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+767,0,0.0125,Low,5,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9875
+768,1,0.9725,High,2,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0275
+769,1,0.9925,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+770,1,0.995,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.005
+771,1,0.99,High,0,,Consult a clinician for a formal evaluation.,0.01
+772,0,0.1975,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.8025
+773,0,0.005,Low,2,High BP (trestbps≥140); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+774,1,0.9975,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+775,1,0.97,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.03
+776,0,0.0175,Low,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9825
+777,0,0.0,Low,5,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+778,0,0.015,Low,3,"Abnormal resting ECG (restecg); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Maintain regular activity, balanced diet, adequate sleep.",0.985
+779,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+780,0,0.01,Low,2,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),Abnormal exercise/ECG indicators—seek medical advice.,0.99
+781,0,0.005,Low,4,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.995
+782,1,0.885,High,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.115
+783,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+784,1,0.99,High,1,High BP (trestbps≥140),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.01
+785,0,0.0,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+786,0,0.0075,Low,4,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9925
+787,0,0.0,Low,5,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+788,0,0.0325,Low,4,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9675
+789,0,0.0125,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9875
+790,0,0.0,Low,3,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+791,0,0.0,Low,3,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+792,0,0.0125,Low,5,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9875
+793,1,0.79,Moderate,3,Low exercise capacity (thalach<100); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.; Build gradual cardio routine (as advised by a professional).,0.21
+794,0,0.0125,Low,4,"Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})",Abnormal exercise/ECG indicators—seek medical advice.,0.9875
+795,1,0.975,High,1,High fasting blood sugar (fbs=1),Consult a clinician for a formal evaluation.,0.025
+796,1,0.995,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.005
+797,0,0.005,Low,2,High BP (trestbps≥140); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+798,0,0.03,Low,3,"High BP (trestbps≥140); High Cholesterol (chol≥240); Angina-type chest pain (cp∈{3,4})","Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.97
+799,1,0.9925,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+800,0,0.005,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.995
+801,1,0.96,High,4,"High BP (trestbps≥140); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.04
+802,0,0.085,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.915
+803,0,0.01,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.99
+804,1,0.99,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.01
+805,1,0.8925,High,1,High BP (trestbps≥140),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.1075
+806,0,0.015,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+807,1,0.975,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.025
+808,1,0.99,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.01
+809,1,0.995,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.005
+810,0,0.01,Low,1,ST depression elevated (oldpeak≥2),Abnormal exercise/ECG indicators—seek medical advice.,0.99
+811,0,0.0475,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9525
+812,0,0.0025,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+813,0,0.015,Low,3,High BP (trestbps≥140); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.985
+814,1,0.975,High,1,High fasting blood sugar (fbs=1),Consult a clinician for a formal evaluation.,0.025
+815,1,0.9675,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0325
+816,1,0.97,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.03
+817,1,1.0,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+818,1,0.9,High,4,"High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.1
+819,0,0.0025,Low,4,High BP (trestbps≥140); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+820,0,0.0025,Low,2,High BP (trestbps≥140); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.9975
+821,0,0.0025,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+822,0,0.0,Low,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+823,1,0.985,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.015
+824,0,0.0,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+825,1,0.985,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.015
+826,1,0.9925,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0075
+827,0,0.0175,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.9825
+828,1,0.975,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.025
+829,0,0.005,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.995
+830,1,0.97,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.03
+831,1,0.97,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.03
+832,1,0.96,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.04
+833,0,0.0025,Low,4,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Anomalous oldpeak (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+834,0,0.0025,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+835,0,0.025,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.975
+836,1,0.9975,High,0,,Consult a clinician for a formal evaluation.,0.0025
+837,1,0.81,High,3,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.19
+838,1,0.98,High,2,"Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.02
+839,1,0.9625,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0375
+840,0,0.005,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.995
+841,1,0.97,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.03
+842,0,0.055,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.945
+843,0,0.0975,Low,3,"High BP (trestbps≥140); High Cholesterol (chol≥240); Angina-type chest pain (cp∈{3,4})","Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9025
+844,0,0.0,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+845,0,0.005,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.995
+846,1,0.97,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.03
+847,0,0.0,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+848,1,0.9875,High,4,"High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0125
+849,0,0.0125,Low,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9875
+850,0,0.015,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+851,1,0.8475,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.1525
+852,0,0.0125,Low,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9875
+853,0,0.005,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.995
+854,0,0.04,Low,4,"High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.96
+855,1,0.9725,High,2,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0275
+856,1,0.9875,High,0,,Consult a clinician for a formal evaluation.,0.0125
+857,1,0.9925,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+858,1,0.9875,High,0,,Consult a clinician for a formal evaluation.,0.0125
+859,0,0.0525,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9475
+860,0,0.01,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.99
+861,0,0.0225,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9775
+862,0,0.03,Low,3,"High BP (trestbps≥140); High Cholesterol (chol≥240); Angina-type chest pain (cp∈{3,4})","Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.97
+863,0,0.025,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.975
+864,0,0.0975,Low,3,"High BP (trestbps≥140); High Cholesterol (chol≥240); Angina-type chest pain (cp∈{3,4})","Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9025
+865,1,0.9975,High,4,"High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+866,1,0.985,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.015
+867,1,0.9775,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0225
+868,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+869,1,0.9975,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0025
+870,1,0.9975,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+871,1,0.985,High,2,High BP (trestbps≥140); High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.015
+872,1,0.975,High,2,"High BP (trestbps≥140); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.025
+873,1,0.9275,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0725
+874,0,0.0975,Low,3,"High BP (trestbps≥140); High Cholesterol (chol≥240); Angina-type chest pain (cp∈{3,4})","Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9025
+875,0,0.0,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+876,0,0.0025,Low,2,High BP (trestbps≥140); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.9975
+877,1,1.0,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+878,0,0.01,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.99
+879,1,0.88,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.12
+880,1,0.7925,Moderate,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.2075
+881,0,0.005,Low,2,High BP (trestbps≥140); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+882,0,0.005,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.995
+883,0,0.19,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.81
+884,0,0.005,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.995
+885,0,0.0,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+886,0,0.0,Low,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+887,1,0.715,Moderate,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.285
+888,0,0.0075,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9925
+889,0,0.01,Low,5,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Anomalous chol (|z|≥3),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.99
+890,0,0.0075,Low,3,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.9925
+891,1,0.905,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.095
+892,0,0.0,Low,3,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+893,0,0.08,Low,3,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Anomalous thal (|z|≥3),"Maintain regular activity, balanced diet, adequate sleep.",0.92
+894,0,0.0525,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9475
+895,0,0.055,Low,4,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).",0.945
+896,1,0.9625,High,4,"High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.0375
+897,1,0.8575,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.1425
+898,1,0.9925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+899,1,0.7775,Moderate,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.2225
+900,0,0.0125,Low,4,"Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})",Abnormal exercise/ECG indicators—seek medical advice.,0.9875
+901,1,0.9925,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+902,0,0.0025,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+903,0,0.005,Low,4,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.995
+904,1,0.99,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.01
+905,0,0.0125,Low,4,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).; Abnormal exercise/ECG indicators—seek medical advice.",0.9875
+906,1,0.9925,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0075
+907,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+908,0,0.0125,Low,4,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).",0.9875
+909,0,0.01,Low,1,High BP (trestbps≥140),"Monitor blood pressure; reduce sodium, manage stress.",0.99
+910,0,0.2275,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.7725
+911,0,0.0375,Low,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9625
+912,0,0.0075,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.9925
+913,1,0.775,Moderate,1,ST depression elevated (oldpeak≥2),Consult a clinician for a formal evaluation.; Abnormal exercise/ECG indicators—seek medical advice.,0.225
+914,0,0.04,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.96
+915,0,0.025,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.975
+916,0,0.0025,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+917,1,0.99,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.01
+918,0,0.015,Low,3,"Abnormal resting ECG (restecg); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Maintain regular activity, balanced diet, adequate sleep.",0.985
+919,0,0.0825,Low,3,"Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Angina-type chest pain (cp∈{3,4})",Abnormal exercise/ECG indicators—seek medical advice.,0.9175
+920,0,0.01,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.99
+921,0,0.005,Low,4,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.995
+922,1,0.9525,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0475
+923,1,0.985,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.015
+924,0,0.02,Low,1,High Cholesterol (chol≥240),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.98
+925,0,0.005,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.995
+926,0,0.005,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.995
+927,1,0.9775,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0225
+928,0,0.005,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.995
+929,0,0.0,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+930,0,0.0025,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.9975
+931,0,0.07,Low,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.",0.93
+932,1,0.98,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.02
+933,0,0.0825,Low,3,"Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Angina-type chest pain (cp∈{3,4})",Abnormal exercise/ECG indicators—seek medical advice.,0.9175
+934,1,0.9925,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0075
+935,1,0.995,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+936,1,0.9575,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0425
+937,0,0.0225,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9775
+938,1,0.8925,High,1,High BP (trestbps≥140),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.1075
+939,1,0.9975,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0025
+940,0,0.025,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.975
+941,1,0.995,High,0,,Consult a clinician for a formal evaluation.,0.005
+942,1,0.985,High,4,"High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.015
+943,1,0.9175,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0825
+944,0,0.02,Low,4,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.98
+945,1,0.9475,High,1,"Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.0525
+946,1,0.9675,High,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0325
+947,1,0.98,High,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.02
+948,0,0.005,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.995
+949,1,0.7925,Moderate,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.2075
+950,0,0.005,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.995
+951,0,0.055,Low,4,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).",0.945
+952,1,0.995,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+953,1,0.99,High,0,,Consult a clinician for a formal evaluation.,0.01
+954,1,0.995,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.005
+955,1,0.94,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.06
+956,1,0.9925,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0075
+957,0,0.2275,Low,3,High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.7725
+958,1,0.955,High,5,High BP (trestbps≥140); High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0); Anomalous chol (|z|≥3),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.045
+959,1,0.985,High,4,"High BP (trestbps≥140); Abnormal resting ECG (restecg); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.015
+960,1,0.995,High,0,,Consult a clinician for a formal evaluation.,0.005
+961,1,0.9725,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0275
+962,1,0.9675,High,3,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.0325
+963,0,0.025,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.975
+964,1,0.9825,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0175
+965,1,0.9875,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0125
+966,0,0.0,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+967,1,0.79,Moderate,3,Low exercise capacity (thalach<100); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.; Build gradual cardio routine (as advised by a professional).,0.21
+968,0,0.015,Low,3,High BP (trestbps≥140); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.985
+969,1,1.0,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+970,1,1.0,High,3,Abnormal resting ECG (restecg); Major vessels observed (ca>0); Anomalous ca (|z|≥3),Consult a clinician for a formal evaluation.,0.0
+971,1,0.81,High,3,High BP (trestbps≥140); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.19
+972,1,0.99,High,1,"Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.01
+973,1,0.9925,High,3,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); ST depression elevated (oldpeak≥2),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.0075
+974,1,0.9775,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0225
+975,0,0.01,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.99
+976,0,0.015,Low,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+977,1,1.0,High,2,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0
+978,0,0.15,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.85
+979,0,0.005,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.995
+980,1,0.9275,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0725
+981,0,0.01,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.99
+982,1,0.955,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.045
+983,1,0.9675,High,3,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0325
+984,1,0.7775,Moderate,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.2225
+985,1,0.94,High,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.06
+986,0,0.01,Low,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.99
+987,0,0.005,Low,2,High BP (trestbps≥140); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.",0.995
+988,0,0.0,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",1.0
+989,1,0.985,High,4,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.015
+990,1,0.9975,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0025
+991,0,0.0,Low,3,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",1.0
+992,1,0.99,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.01
+993,0,0.095,Low,4,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0); Anomalous ca (|z|≥3),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.905
+994,0,0.0,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",1.0
+995,1,0.9525,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0475
+996,0,0.015,Low,3,High Cholesterol (chol≥240); Major vessels observed (ca>0); Anomalous chol (|z|≥3),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+997,0,0.01,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.99
+998,0,0.0025,Low,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9975
+999,0,0.0075,Low,4,High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9925
+1000,0,0.09,Low,3,High BP (trestbps≥140); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Monitor blood pressure; reduce sodium, manage stress.; Abnormal exercise/ECG indicators—seek medical advice.",0.91
+1001,1,0.9925,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0075
+1002,0,0.04,Low,1,Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.96
+1003,1,0.9675,High,3,High fasting blood sugar (fbs=1); Abnormal resting ECG (restecg); Major vessels observed (ca>0),Consult a clinician for a formal evaluation.,0.0325
+1004,1,0.98,High,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Major vessels observed (ca>0),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.02
+1005,0,0.0075,Low,3,Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,0.9925
+1006,1,0.9925,High,2,High BP (trestbps≥140); High fasting blood sugar (fbs=1),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.0075
+1007,1,0.9475,High,1,"Angina-type chest pain (cp∈{3,4})",Consult a clinician for a formal evaluation.,0.0525
+1008,1,1.0,High,2,High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+1009,0,0.07,Low,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.",0.93
+1010,0,0.0525,Low,3,High BP (trestbps≥140); High Cholesterol (chol≥240); Abnormal resting ECG (restecg),"Monitor blood pressure; reduce sodium, manage stress.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.9475
+1011,1,1.0,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.0
+1012,0,0.0125,Low,1,Abnormal resting ECG (restecg),"Maintain regular activity, balanced diet, adequate sleep.",0.9875
+1013,0,0.03,Low,4,High Cholesterol (chol≥240); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",0.97
+1014,1,0.9825,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0175
+1015,0,0.0,Low,2,ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),Abnormal exercise/ECG indicators—seek medical advice.,1.0
+1016,0,0.04,Low,4,"High Cholesterol (chol≥240); High fasting blood sugar (fbs=1); Major vessels observed (ca>0); Angina-type chest pain (cp∈{3,4})","Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.96
+1017,0,0.0,Low,5,High Cholesterol (chol≥240); Low exercise capacity (thalach<100); Abnormal resting ECG (restecg); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Build gradual cardio routine (as advised by a professional).; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+1018,0,0.1125,Low,0,,"Maintain regular activity, balanced diet, adequate sleep.",0.8875
+1019,1,0.9525,High,1,Abnormal resting ECG (restecg),Consult a clinician for a formal evaluation.,0.0475
+1020,1,0.99,High,2,High BP (trestbps≥140); Abnormal resting ECG (restecg),"Consult a clinician for a formal evaluation.; Monitor blood pressure; reduce sodium, manage stress.",0.01
+1021,0,0.0,Low,3,High Cholesterol (chol≥240); ST depression elevated (oldpeak≥2); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.; Abnormal exercise/ECG indicators—seek medical advice.",1.0
+1022,0,0.015,Low,2,High Cholesterol (chol≥240); Major vessels observed (ca>0),"Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.985
+1023,1,0.99,High,1,High Cholesterol (chol≥240),"Consult a clinician for a formal evaluation.; Review diet (fiber, unsaturated fats); consider lipid panel follow-up.",0.01
+1024,0,0.01,Low,2,Abnormal resting ECG (restecg); Major vessels observed (ca>0),"Maintain regular activity, balanced diet, adequate sleep.",0.99

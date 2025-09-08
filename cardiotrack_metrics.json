@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-09-08 11:25:23",
+  "csv_path": "C:\\Users\\sagni\\Downloads\\Cardio Track\\archive\\heart.csv",
+  "target": "target",
+  "metrics": {
+    "LogisticRegression": {
+      "accuracy": 0.8249027237354085,
+      "roc_auc": 0.9298181818181818,
+      "chosen_score": 0.9298181818181818
+    },
+    "RandomForest": {
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "chosen_score": 1.0
+    }
+  },
+  "best_model": "RandomForest",
+  "labels": [
+    0,
+    1
+  ]
+}
